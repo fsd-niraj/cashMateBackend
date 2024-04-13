@@ -1,0 +1,7 @@
+POST: http://localhost:5000/api/product/add-product {name, price, userId}
+DELETE: http://localhost:5000/api/product/delete-product {_id}
+PUT: http://localhost:5000/api/product/update-product {_id, params}
+GET: http://localhost:5000/api/product/get-all-products
+
+POST: http://localhost:5000/api/transaction/create-transaction {employeeId, productList, locationId, quantity, totalAmount}
+GET: http://localhost:5000/api/transaction/transaction-history {}
